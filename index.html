@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title> New project site </title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+  </head>
+
+<body>
+<div class="header">
+        <div class="headerContent">
+         <div class="firstTransform"><span> </span></div>
+          <div class="firstDrop">
+               <span>Medical Rebates</span> <span class="arrow1"> &#10095 </span>
+               <div class="FDContent">
+                  <a href="#">Alabama</a>
+                  <a href="#">Alaska</a>
+                  <a href="#">Arkansas</a>
+                  <a href="#">California</a>
+                  <a href="#">Colorado</a>
+                  <a href="#">Delaware</a>
+                  <a href="#">Florida</a>
+               </div>
+           </div>
+             <span class="slash"><a>|</a></span>
+          <div class="secondDrop">
+               <span>Pharma 1</span> <span class="arrow2"> &#10095 </span>
+               <div class="SDContent">
+                  <a href="#">Alabama</a>
+                  <a href="#">Alaska</a>
+                  <a href="#">Arkansas</a>
+                  <a href="#">California</a>
+                  <a href="#">Colorado</a>
+                  <a href="#">Delaware</a>
+                  <a href="#">Florida</a>
+               </div>
+           </div>
+        <div class="secondTransform"><span> </span></div>
+     </div>
+    </div>
+
+<div class="menu">
+    <span class="click" onclick="openHide()" >&#9776;</span>
+    <span class="navigationInfo"> Clients> Pharma Corporation ></span>
+    <span class="selectContent">Speed</span>
+        <div id="mySidemenu" class="sidenav">
+            <a href="#">
+                <i class="fas fa-tachometer-alt"></i>
+            </a>
+            <a href="#">
+                <i class="fas fa-search"></i>
+            </a>
+            <a href="#">
+                <i class="fas fa-bars"></i>
+            </a>
+            <a href="#">
+                <i class="fas fa-briefcase"></i>
+            </a>
+            <a href="#">
+                <i class="fas fa-database"></i>
+            </a>
+            <a href="#">
+                <i class="fas fa-upload"></i>
+            </a>
+         </div>
+</div>
+
+<div id="main">
+    <div class="main_content"><span>Speed Component</span></div>
+    <div class="footer"></div>
+ </div>
+
+<script>
+ function openHide() {
+    var mySidemenu = document.getElementById("mySidemenu");
+    var mainElement = document.getElementById("main");
+    mySidemenu.classList.toggle("show");
+    mainElement.classList.toggle("main");
+ }
+</script>
+</body>
+</html>
