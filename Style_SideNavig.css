@@ -1,0 +1,56 @@
+
+/* Here are all Css that inlude a menu navigation styles ( and click button) */
+.menu {
+    padding: 15px 0px 20px 0px;
+    }
+
+ .navigationInfo {
+    font-size: 18px;
+    color: Gray;
+    }
+
+ .selectContent {
+    color: black;
+    font-size: 19px;
+    font-weight: bold;
+    }
+
+ .click {
+    color: Gray;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    }
+
+
+/* This is all Css that modify a menu button */
+.sidenav {
+    width: 0;
+    position: fixed;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+    }
+
+ .sidenav a {
+    width: 40px;
+    line-height: 35px;
+    font-size: 15px;
+    margin: 0px 0px 20px 15px;
+    color: DimGray;
+    display: block;
+    transition: 0.5s;
+    border: 3px solid grey;
+    border-radius: 50%;
+    text-align: center;
+    }
+
+ .sidenav a:hover {
+    color: white;
+    background-color: black;
+    border-color: black;
+    }
+
+ .show {
+    padding-right: 80px;
+    }

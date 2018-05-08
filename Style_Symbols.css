@@ -1,0 +1,12 @@
+/* Here we have a code of Slash and arrow code!!! */
+.slash {
+    color:  grey;
+}
+.arrow {
+    position: absolute;
+    font-size: 9px;
+    color: grey;
+    transform: rotate(90deg);
+    top: 16px;
+    left: 96%;
+    }

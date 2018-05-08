@@ -1,0 +1,33 @@
+.header{
+    background-color: black;
+    padding: 20px;
+    }
+
+ .headerContent {
+    width: 50%;
+    height: 5.3%;
+    left: 25%;
+    top: 0px;
+    position: absolute;
+    border-radius: 10px;
+    border: 6px solid black;
+    background-color: black;
+    }
+
+ .headerSlash1 {
+    height: 57px;
+    top: -8px;
+    left: -12px;
+    border: 0.7px solid white;
+    position: absolute;
+    transform: rotate(-20deg);
+    }
+
+.headerSlash2 {
+    height: 57px;
+    top: -8px;
+    right: -12.4px;
+    border: 0.7px solid white;
+    position: absolute;
+    transform: rotate(20deg);
+}
